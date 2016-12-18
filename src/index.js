@@ -11,7 +11,7 @@ var states = {
 var alexa;
 
 //OPTIONAL: replace with "amzn1.ask.skill.[your-unique-value-here]";
-var APP_ID = undefined; 
+var APP_ID = "amzn1.ask.skill.a5267ed2-cc0c-42e8-beb7-0911b95decb5"; 
 
 // URL to get the .ics from, in this instance we are getting from Stanford however this can be changed
 var URL = "http://www.vaisnavacalendar.info/ICS/Chicago%20[United%20States%20of%20America]-a2016-ICS.ics";

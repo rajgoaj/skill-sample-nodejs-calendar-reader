@@ -14,27 +14,27 @@ var alexa;
 var APP_ID = undefined; 
 
 // URL to get the .ics from, in this instance we are getting from Stanford however this can be changed
-var URL = "http://events.stanford.edu/eventlist.ics";
+var URL = "http://www.vaisnavacalendar.info/ICS/Chicago%20[United%20States%20of%20America]-a2016-ICS.ics";
 
 // Skills name 
-var skillName = "Events calendar:";
+var skillName = "Tamil calendar:";
 
 // Message when the skill is first called
-var welcomeMessage = "You can ask for the events today. search for events by date. or say help. What would you like? ";
+var welcomeMessage = "You can ask for days in Tamil Calendar. search for details by date. or say help. What would you like? ";
 
 // Message for help intent
-var HelpMessage = "Here are some things you can say: Is there an event today? Is there an event on the 18th of July? What are the events next week? Are there any events tomorrow?  What would you like to know?";
+var HelpMessage = "Here are some things you can say: Is there an occasion today? Is there an occasion on the 18th of July? What are the events next week? Are there any events tomorrow?  What would you like to know?";
 
-var descriptionStateHelpMessage = "Here are some things you can say: Tell me about event one";
+var descriptionStateHelpMessage = "Here are some things you can say: Tell me about occasion one";
 
 // Used when there is no data within a time period
-var NoDataMessage = "Sorry there arnt't any events scheduled. Would you like to search again?";
+var NoDataMessage = "Sorry there arnt't any occasions. Would you like to search again?";
 
 // Used to tell user skill is closing
 var shutdownMessage = "Ok see you again soon.";
 
 // Message used when only 1 event is found allowing for difference in punctuation 
-var oneEventMessage = "There is 1 event ";
+var oneEventMessage = "There is 1 occasion ";
 
 // Message used when more than 1 event is found allowing for difference in punctuation 
 var multipleEventMessage = "There are %d events ";
@@ -51,13 +51,13 @@ var eventSummary = "The %s event is, %s at %s on %s ";
 var cardContentSummary = "%s at %s on %s ";
 
 // More info text
-var haveEventsRepromt = "Give me an event number to hear more information.";
+var haveEventsRepromt = "Give me an occasion number to hear more information.";
 
 // Error if a date is out of range
 var dateOutOfRange = "Date is out of range please choose another date";
 
 // Error if a event number is out of range
-var eventOutOfRange = "Event number is out of range please choose another event";
+var eventOutOfRange = "Occasion number is out of range please choose another occasion";
 
 // Used when an event is asked for
 var descriptionMessage = "Here's the description ";
@@ -65,7 +65,7 @@ var descriptionMessage = "Here's the description ";
 // Used when an event is asked for
 var killSkillMessage = "Ok, great, see you next time.";
 
-var eventNumberMoreInfoText = "You can say the event number for more information.";
+var eventNumberMoreInfoText = "You can say the occasion number for more information.";
 
 // used for title on companion app
 var cardTitle = "Events";
